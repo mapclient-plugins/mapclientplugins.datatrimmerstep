@@ -19,7 +19,7 @@ from PySide6.QtWidgets import (QApplication, QDockWidget, QFrame, QGridLayout,
     QHBoxLayout, QPushButton, QScrollArea, QSizePolicy,
     QSpacerItem, QToolBox, QVBoxLayout, QWidget)
 
-from opencmiss.zincwidgets.sceneviewerwidget import SceneviewerWidget
+from cmlibs.widgets.sceneviewerwidget import SceneviewerWidget
 
 class Ui_DataTrimmer(object):
     def setupUi(self, DataTrimmer):
